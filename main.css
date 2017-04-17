@@ -1,0 +1,193 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+.body {
+	margin-bottom: 0px; 
+	padding-bottom: 0px}
+
+.Hero_image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.Hero_text {
+	position: absolute;
+	top: 550px;
+	left: 454px;
+	text-align: center;
+	color: #50E3C2;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+.Hero_support_text {
+	position: absolute;
+	top: 640px;
+	left: 370px;
+	text-align: center;
+	color: #829496;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+
+
+
+
+.Section_1 {
+	position: absolute;
+	top: 1000px;
+	left: 380px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: white;
+}
+
+.Section_1_support_text {
+	position: absolute;
+	top: 1100px;
+	left: 480px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #02202a;
+}
+
+.image_section_1 {
+	position: absolute;
+	top: 900px;
+	left: 0px;
+}
+
+
+
+
+.Section_2 {
+	position: absolute;
+	top: 1500px;
+	left: 540px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #02202a;
+}
+
+.Section_2_support_text {
+	position: absolute;
+	top: 1540px;
+	left: 430px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #02202a;
+}
+
+.image_section_2 {
+	position: absolute;
+	top: 1415px;
+	left: 0px;
+	z-index: -1;
+}
+
+.Section_3 {
+	position: absolute;
+	top: 2150px;
+	left: 415px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #ababab;
+}
+
+.image_section_3 {
+	position: absolute;
+	top: 1925px;
+	left: 0px;
+	z-index: -1;
+	color: black;
+}
+
+/*.section_4 {
+	position: absolute;
+	top: 2740px;
+	left: 470px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #02202a;
+}
+
+.image_section_4 {
+	position: absolute;
+	top: 2650px;
+	left: 0px;
+	z-index: -1;
+}
+
+.section_5 {
+	position: absolute;
+	top: 3640px;
+	left: 470px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #02202a;
+}
+
+.image_section_5 {
+	position: absolute;
+	top:3548px;
+	left: 0px;
+	z-index: -1;
+}*/
+
+.button_1 {
+    position: fixed;
+    top: 800px;
+    left: 265px;
+    background-color: #ffd30a;
+    border: none;
+    color: black;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1px 405px;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 900;
+
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    /* ...and now for the proper property */
+    transition:.15s;
+}
+
+button:Hover {
+    color: #51fbf0;
+    background-color: black;
+    
+}
+
+.footer {
+	position: absolute;
+	top: 2850px;
+	left: 0px;
+	z-index: -1;
+	padding: 0px;
+	margin: 0px;
+	background-color: #03202a;
+}
