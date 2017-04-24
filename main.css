@@ -10,6 +10,32 @@ html, body {
 	padding-bottom: 0px;
 }
 
+.hero {
+	height: 100vh;
+}
+
+.myButton {
+	border: none;
+	position: fixed;
+	top: 500px;
+	left: 38%;
+	background-color: #ffd30a !important;
+	font-size: 20px !important;  
+	margin-top: 30px;
+	width:25%;
+	height: 55px;
+	border-radius: 18px !important;
+	color: #03202a;
+	outline: 0 !important;
+}
+
+
+/*.myButton {
+	font-size: 20px;
+	position: fixed;
+	bottom: 60px;
+}*/
+
 .no-padding {
   padding-left: 0;
   padding-right: 0;
@@ -29,7 +55,7 @@ button:Hover {
 }
 
 .hero_text {
-	margin-top: 550px;
+	margin-top: 340px;
 	color: #50E3C2;
 }
 
@@ -62,7 +88,8 @@ button:Hover {
 }*/
 
 .hero_support_text {
-	top: 65px;
+	/*top: 65px;*/
+	margin-top: 50px;
 	color: #829496;
 }
 
