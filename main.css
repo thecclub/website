@@ -26,6 +26,7 @@ html, body {
 	height: 55px;
 	border-radius: 18px !important;
 	color: #03202a;
+	outline: 0 !important;
 }
 
 
