@@ -17,26 +17,27 @@ html, body {
 .myButton {
 	border: none;
 	position: fixed;
-	/*top: 500px;*/
 	top: 76%;
-	left: 38%;
+	left: 40%;
 	background-color: #ffd30a !important;
 	font-size: 20px !important;  
 	margin-top: 30px;
-	width:25%;
+	width: 20%;
 	height: 55px;
 	border-radius: 18px !important;
 	color: #03202a;
 	outline: 0 !important;
 	z-index: 900;
+
+	text-align: center;
+	display: inline-block;
+
+	-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
 }
-
-
-/*.myButton {
-	font-size: 20px;
-	position: fixed;
-	bottom: 60px;
-}*/
 
 .no-padding {
   padding-left: 0;
@@ -44,8 +45,8 @@ html, body {
 }
 
 button:Hover {
-  color: #51fbf0;
-  background-color: black;
+  color: #51fbf0 !important;
+  background-color: black !important;
 }
 
 .text-styling {
@@ -57,8 +58,6 @@ button:Hover {
 }
 
 .hero_text {
-	/*margin-top: 340px;*/
-	/*top: 320px;*/
 	top: 50%;
 	color: #50E3C2;
 }
