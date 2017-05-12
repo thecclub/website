@@ -10,31 +10,34 @@ html, body {
 	padding-bottom: 0px;
 }
 
-.hero {
+.fullpage_image, .responsive_text, .hero_support_text {
 	height: 100vh;
 }
 
 .myButton {
 	border: none;
 	position: fixed;
-	top: 500px;
-	left: 38%;
+	top: 76%;
+	left: 40%;
 	background-color: #ffd30a !important;
 	font-size: 20px !important;  
 	margin-top: 30px;
-	width:25%;
+	width: 20%;
 	height: 55px;
 	border-radius: 18px !important;
 	color: #03202a;
 	outline: 0 !important;
+	z-index: 900;
+
+	text-align: center;
+	display: inline-block;
+
+	-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
 }
-
-
-/*.myButton {
-	font-size: 20px;
-	position: fixed;
-	bottom: 60px;
-}*/
 
 .no-padding {
   padding-left: 0;
@@ -42,8 +45,8 @@ html, body {
 }
 
 button:Hover {
-  color: #51fbf0;
-  background-color: black;
+  color: #51fbf0 !important;
+  background-color: black !important;
 }
 
 .text-styling {
@@ -55,41 +58,15 @@ button:Hover {
 }
 
 .hero_text {
-	margin-top: 340px;
+	top: 50%;
 	color: #50E3C2;
 }
 
-/*.Hero_content {
-	text-align:center;
-	margin-top:42%;
-	margin-bottom:13%
-}*/
-
-/*.Hero {
-	background-image: url('/Users/harshit/cclub/saefamai/images/Hero_image.jpg');
-	background-repeat: no-repeat;
-	height: 700px;
-	background-position: center center;
-	background-size: contain;
-	top: 0px;
-	left: 0px;
-}*/
-
-/*.Hero_text {
-	position: absolute;
-	top: 550px;
-	left: 454px;
-	text-align: center;
-	color: #50E3C2;
-	letter-spacing: 2px !important;
-	font-size: 16px !important;
-	font-family: 'Dosis' !important;
-	padding-top: 350px;
-}*/
 
 .hero_support_text {
-	/*top: 65px;*/
-	margin-top: 50px;
+	/*margin-top: 50px;*/
+	/*top: 360px;*/
+	top: 55%;
 	color: #829496;
 }
 
